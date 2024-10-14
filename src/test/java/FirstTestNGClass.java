@@ -13,7 +13,7 @@ public class FirstTestNGClass {
 
     @BeforeTest
         public void prepare() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\vvp\\Desktop\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\vvp\\Desktop\\SeleniumJarFiles\\chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
     }
