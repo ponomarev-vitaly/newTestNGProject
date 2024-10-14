@@ -25,7 +25,7 @@ public class SecondTestNGClass {
         }
     }
 
-    @Test
+    @Test (priority = 0)
     public void openWebsite(){
         System.out.println("Open the browser!");
         driver.navigate().to("https://www.twitter.com");
@@ -33,29 +33,23 @@ public class SecondTestNGClass {
         wait.until(driver->driver.getTitle().equals("X. It’s what’s happening / X"));
     }
 
-    @Test
+    @Test (priority = 1)
     public void signUp(){
         System.out.println("Signing up...");
     }
 
-    @Test
+    @Test (priority = 2)
     public void login(){
         System.out.println("Login...");
     }
 
-    @Test
+    @Test (priority = 3)
     public void addToCart(){
         System.out.println("Add to cart...");
     }
 
-    @Test
+    @Test (priority = 4)
     public void logOut(){
         System.out.println("Logging out...");
     }
-
-    @Test
-    public void closeTheBrowser(){
-        System.out.println("Closing the browser...");
-    }
-
 }
