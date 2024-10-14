@@ -1,6 +1,12 @@
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class FirstTestNGClass {
+    @BeforeTest
+
+    @AfterTest
+
     @Test
     public void openBrowser(){
         System.out.println("Open the browser!");
