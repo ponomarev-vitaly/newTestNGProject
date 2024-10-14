@@ -28,9 +28,9 @@ public class SecondTestNGClass {
     @Test
     public void openWebsite(){
         System.out.println("Open the browser!");
-        driver.navigate().to("https://www.google.com");
+        driver.navigate().to("https://www.twitter.com");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
-        wait.until(driver->driver.getTitle().equals("Google"));
+        wait.until(driver->driver.getTitle().equals("X. It’s what’s happening / X"));
     }
 
     @Test

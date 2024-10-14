@@ -2,6 +2,7 @@
     <test name="myTest">
         <classes>
             <class name="FirstTestNGClass"/>
+            <class name="SecondTestNGClass"/>
         </classes>
     </test>
 </suite>
