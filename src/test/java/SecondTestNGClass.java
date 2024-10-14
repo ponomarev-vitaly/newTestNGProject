@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class FirstTestNGClass {
+public class SecondTestNGClass {
     WebDriver driver;
 
     @BeforeTest
